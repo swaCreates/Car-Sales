@@ -36,5 +36,6 @@ const mapStateToProps= state => {
 
 export default connect(
   mapStateToProps,
-  {addFeature, removeFeature}
+  {addFeature, 
+  removeFeature}
 )(App);

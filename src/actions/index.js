@@ -14,10 +14,4 @@ export const removeFeature = feature => {
     }
 }
 
-export const updateTotal= total => {
-    return{
-        type: 'TOTAL',
-        payload: total
-    }
-}
 
